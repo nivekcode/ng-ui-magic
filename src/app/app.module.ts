@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {GreetingDirective} from './directive/greeting.directive';
 import {ClickDirective} from './directive/click.directive';
+import {TrackDirective} from './directive/track.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     GreetingDirective,
-    ClickDirective
+    ClickDirective,
+    TrackDirective
   ],
   imports: [
     BrowserModule,
