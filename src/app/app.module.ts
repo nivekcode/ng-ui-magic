@@ -12,6 +12,7 @@ import {TemplateWithDataComponent} from './templates/template-with-data.componen
 import {ThreeDirective} from './directive/three.directive';
 import {ThreeDataDirective} from './directive/three-data.directive';
 import {ThreeDynamicDirective} from './directive/three-dynamic.directive';
+import {MyNgIfDirective} from './directive/myNgIf.directive';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import {ThreeDynamicDirective} from './directive/three-dynamic.directive';
     TemplateWithDataComponent,
     ThreeDirective,
     ThreeDataDirective,
-    ThreeDynamicDirective
+    ThreeDynamicDirective,
+    MyNgIfDirective
   ],
   imports: [
     BrowserModule,

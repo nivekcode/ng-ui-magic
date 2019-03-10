@@ -15,3 +15,7 @@
 <h1 *threedynamic="let message loop messages">{{ message }}</h1>
 
 <h1 *threedata="let message">The message: {{message}}</h1>
+
+<h1>My NgIf</h1>
+<button (click)="toggled = !toggled">{{ toggled ? 'Hide': 'Show' }}</button>
+<h1 *myNgIf="toggled">Value set to {{ toggled }}</h1>

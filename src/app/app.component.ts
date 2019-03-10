@@ -7,6 +7,7 @@ import {Component} from '@angular/core';
 })
 export class AppComponent {
 
+  public toggled = false;
   public messages = [
     'message one',
     'message two',
