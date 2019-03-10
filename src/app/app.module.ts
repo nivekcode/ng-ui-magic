@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import {GreetingDirective} from './directive/greeting.directive';
 import {ClickDirective} from './directive/click.directive';
 import {TrackDirective} from './directive/track.directive';
+import {TemplateSampleComponent} from './templates/template-sample.component';
+import {CreateTemplateComponent} from './templates/create-template.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     GreetingDirective,
     ClickDirective,
-    TrackDirective
+    TrackDirective,
+    TemplateSampleComponent,
+    CreateTemplateComponent
   ],
   imports: [
     BrowserModule,
