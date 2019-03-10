@@ -2,27 +2,29 @@
 <h2 greeting firstname="Kevin" lastname="Kreuzer">Real Madrid is awesome</h2>
 <h3 clickeme>Click me</h3>
 <h3 clickeme>Click me again</h3>
-<hr />
+<hr/>
 
 <button trackclick>Button one</button>
 <button trackclick>Button two</button>
-<hr />
+<hr/>
 
 <template-sample></template-sample>
 <create-template></create-template>
 <template-with-data></template-with-data>
-<hr />
+<hr/>
 
 <h1 *three>I am logged multiple times</h1>
-<hr />
+<hr/>
 
 <h1 *threedynamic="let message loop messages">{{ message }}</h1>
-<hr />
+<hr/>
 
 <h1 *threedata="let message">The message: {{message}}</h1>
-<hr />
+<hr/>
 
 <h1>My NgIf</h1>
 <button (click)="toggled = !toggled">{{ toggled ? 'Hide': 'Show' }}</button>
 <h1 *myNgIf="toggled">Value set to {{ toggled }}</h1>
-<hr />
+<hr/>
+
+<h1 *threedataIndex="let message goThrough messages; let i = index">Message: {{message}}, Index: {{i}}</h1>

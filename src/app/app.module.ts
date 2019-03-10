@@ -13,6 +13,7 @@ import {ThreeDirective} from './directive/three.directive';
 import {ThreeDataDirective} from './directive/three-data.directive';
 import {ThreeDynamicDirective} from './directive/three-dynamic.directive';
 import {MyNgIfDirective} from './directive/myNgIf.directive';
+import {ThreedataIndexDirective} from './directive/threedata-index.directive';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import {MyNgIfDirective} from './directive/myNgIf.directive';
     ThreeDirective,
     ThreeDataDirective,
     ThreeDynamicDirective,
-    MyNgIfDirective
+    MyNgIfDirective,
+    ThreedataIndexDirective
   ],
   imports: [
     BrowserModule,
