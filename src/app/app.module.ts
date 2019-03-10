@@ -9,6 +9,7 @@ import {TrackDirective} from './directive/track.directive';
 import {TemplateSampleComponent} from './templates/template-sample.component';
 import {CreateTemplateComponent} from './templates/create-template.component';
 import {TemplateWithDataComponent} from './templates/template-with-data.component';
+import {ThreeDirective} from './directive/three.directive';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import {TemplateWithDataComponent} from './templates/template-with-data.componen
     TrackDirective,
     TemplateSampleComponent,
     CreateTemplateComponent,
-    TemplateWithDataComponent
+    TemplateWithDataComponent,
+    ThreeDirective
   ],
   imports: [
     BrowserModule,
