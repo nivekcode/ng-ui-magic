@@ -8,6 +8,7 @@ import {ClickDirective} from './directive/click.directive';
 import {TrackDirective} from './directive/track.directive';
 import {TemplateSampleComponent} from './templates/template-sample.component';
 import {CreateTemplateComponent} from './templates/create-template.component';
+import {TemplateWithDataComponent} from './templates/template-with-data.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import {CreateTemplateComponent} from './templates/create-template.component';
     ClickDirective,
     TrackDirective,
     TemplateSampleComponent,
-    CreateTemplateComponent
+    CreateTemplateComponent,
+    TemplateWithDataComponent
   ],
   imports: [
     BrowserModule,
