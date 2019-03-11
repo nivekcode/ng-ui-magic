@@ -11,7 +11,7 @@ import {AfterContentInit, Component, TemplateRef, ViewChild, ViewContainerRef} f
 export class CreateTemplateComponent implements AfterContentInit {
 
   @ViewChild('foo')
-  private fooTemplate: TemplateRef;
+  private fooTemplate: TemplateRef<any>;
 
   constructor(private viewContainer: ViewContainerRef) {
   }

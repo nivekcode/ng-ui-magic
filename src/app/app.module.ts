@@ -14,6 +14,8 @@ import {ThreeDataDirective} from './directive/three-data.directive';
 import {ThreeDynamicDirective} from './directive/three-dynamic.directive';
 import {MyNgIfDirective} from './directive/myNgIf.directive';
 import {ThreedataIndexDirective} from './directive/threedata-index.directive';
+import {MoveExampleComponent} from './move-elements/move-example.component';
+import {MoveElementsModule} from './move-elements/move-elements.module';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,8 @@ import {ThreedataIndexDirective} from './directive/threedata-index.directive';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MoveElementsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
