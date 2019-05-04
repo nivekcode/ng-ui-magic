@@ -17,6 +17,7 @@ import {ThreedataIndexDirective} from './directive/threedata-index.directive';
 import {MoveExampleComponent} from './move-elements/move-example.component';
 import {MoveElementsModule} from './move-elements/move-elements.module';
 import {GreenDirective} from './directive/green.directive';
+import {BlueOnHoverDirective} from './directive/blue-on-hover.directive';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import {GreenDirective} from './directive/green.directive';
     ThreeDynamicDirective,
     MyNgIfDirective,
     ThreedataIndexDirective,
-    GreenDirective
+    GreenDirective,
+    BlueOnHoverDirective
   ],
   imports: [
     BrowserModule,
