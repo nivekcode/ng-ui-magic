@@ -14,10 +14,10 @@ import {ThreeDataDirective} from './directive/three-data.directive';
 import {ThreeDynamicDirective} from './directive/three-dynamic.directive';
 import {MyNgIfDirective} from './directive/myNgIf.directive';
 import {ThreedataIndexDirective} from './directive/threedata-index.directive';
-import {MoveExampleComponent} from './move-elements/move-example.component';
 import {MoveElementsModule} from './move-elements/move-elements.module';
 import {GreenDirective} from './directive/green.directive';
-import {BlueOnHoverDirective} from './directive/blue-on-hover.directive';
+import {BlueOnClickDirective} from './directive/blue-on-hover.directive';
+import {ContentProjectionModule} from './content-projection/content-projection.module';
 
 @NgModule({
   declarations: [
@@ -34,12 +34,13 @@ import {BlueOnHoverDirective} from './directive/blue-on-hover.directive';
     MyNgIfDirective,
     ThreedataIndexDirective,
     GreenDirective,
-    BlueOnHoverDirective
+    BlueOnClickDirective
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MoveElementsModule
+    MoveElementsModule,
+    ContentProjectionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
