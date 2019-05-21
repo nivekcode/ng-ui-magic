@@ -18,10 +18,13 @@ import {MoveElementsModule} from './move-elements/move-elements.module';
 import {GreenDirective} from './directive/green.directive';
 import {BlueOnClickDirective} from './directive/blue-on-hover.directive';
 import {ContentProjectionModule} from './content-projection/content-projection.module';
+import {DialogModule} from './dialog/dialog.module';
+import {DialogComponent} from './dialog/dialog.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    DialogComponent,
     GreetingDirective,
     ClickDirective,
     TrackDirective,
@@ -43,6 +46,7 @@ import {ContentProjectionModule} from './content-projection/content-projection.m
     ContentProjectionModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [DialogComponent]
 })
 export class AppModule { }
