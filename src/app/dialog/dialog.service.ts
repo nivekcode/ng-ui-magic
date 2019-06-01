@@ -1,4 +1,4 @@
-import {ApplicationRef, ComponentFactoryResolver, ComponentRef, EmbeddedViewRef, Injectable, Injector} from '@angular/core';
+import {ApplicationRef, ComponentFactoryResolver, ComponentRef, EmbeddedViewRef, Injectable, Injector, Type} from '@angular/core';
 import {DialogComponent} from './dialog.component';
 
 @Injectable({
@@ -15,8 +15,9 @@ export class DialogService {
   ) {
   }
 
-  public open(): void {
+  public open(componentType: Type<any>): void {
     this.appendDialogComponentToBody();
+    this.dialogComponentRef.instance.childComponentType = componentType;
   }
 
   private appendDialogComponentToBody() {
