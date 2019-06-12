@@ -19,6 +19,7 @@ import {GreenDirective} from './directive/green.directive';
 import {BlueOnClickDirective} from './directive/blue-on-hover.directive';
 import {DialogComponent} from './dialog/dialog.component';
 import {ContentProjectionModule} from './content-projection/simple_example/content-projection.module';
+import {ComponentsExampleModule} from './content-projection/components_example/components-example.module';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import {ContentProjectionModule} from './content-projection/simple_example/conte
     BrowserModule,
     AppRoutingModule,
     MoveElementsModule,
-    ContentProjectionModule
+    ContentProjectionModule,
+    ComponentsExampleModule
   ],
   providers: [],
   bootstrap: [AppComponent],
