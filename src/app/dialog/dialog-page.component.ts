@@ -13,6 +13,6 @@ export class DialogPageComponent {
   }
 
   public createDialog(): void {
-    this.dialogService.open();
+    // this.dialogService.open();
   }
 }

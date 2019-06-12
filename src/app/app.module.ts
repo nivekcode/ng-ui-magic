@@ -17,9 +17,8 @@ import {ThreedataIndexDirective} from './directive/threedata-index.directive';
 import {MoveElementsModule} from './move-elements/move-elements.module';
 import {GreenDirective} from './directive/green.directive';
 import {BlueOnClickDirective} from './directive/blue-on-hover.directive';
-import {ContentProjectionModule} from './content-projection/content-projection.module';
-import {DialogModule} from './dialog/dialog.module';
 import {DialogComponent} from './dialog/dialog.component';
+import {ContentProjectionModule} from './content-projection/simple_example/content-projection.module';
 
 @NgModule({
   declarations: [
