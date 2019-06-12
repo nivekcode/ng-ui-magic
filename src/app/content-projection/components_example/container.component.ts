@@ -5,11 +5,11 @@ import {Component} from '@angular/core';
   template: `
     <div style="background: red">
     <h1>foo</h1>
-    <ng-content select=":not(bar)"></ng-content>
+    <ng-content *preventRendering></ng-content>
     </div>
     <div style="background: blue">
     <h1>Bar</h1>
-    <ng-content></ng-content>
+    <ng-content select="bar"></ng-content>
     </div>
   `
 })

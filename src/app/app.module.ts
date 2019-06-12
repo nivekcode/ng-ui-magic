@@ -20,6 +20,8 @@ import {BlueOnClickDirective} from './directive/blue-on-hover.directive';
 import {DialogComponent} from './dialog/dialog.component';
 import {ContentProjectionModule} from './content-projection/simple_example/content-projection.module';
 import {ComponentsExampleModule} from './content-projection/components_example/components-example.module';
+import {GoodEvilModule} from './content-projection/good_evil/good-evil.module';
+import {CommonModule} from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -44,7 +46,8 @@ import {ComponentsExampleModule} from './content-projection/components_example/c
     AppRoutingModule,
     MoveElementsModule,
     ContentProjectionModule,
-    ComponentsExampleModule
+    ComponentsExampleModule,
+    GoodEvilModule
   ],
   providers: [],
   bootstrap: [AppComponent],
