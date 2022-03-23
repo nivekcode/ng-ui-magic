@@ -11,6 +11,6 @@ export class DestinationDirective implements AfterViewInit {
 
   ngAfterViewInit(): void {
     const template = this.elementService.elementMap.get('superman');
-    this.renderer.appendChild(this.el.nativeElement, template.nativeElement);
+    this.renderer.appendChild(this.el.nativeElement, template?.nativeElement);
   }
 }
